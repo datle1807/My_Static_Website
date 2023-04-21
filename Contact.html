@@ -1,0 +1,93 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Quang Dat
+ID: s3927251 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home_page.css">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="mobile-nav-icon">☰</div>
+    <head>
+        <div class="header">
+            <a href="#"><img class="icon" src="icon.jpg" alt=""></a>
+            <h1>My books</h1>
+        </div> 
+        <nav class="nav">
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="Categories_Fiction.html" target="_blank">Fiction</a></li>
+                <li><a href="Categories_References.html" target="_blank">Reference Books</a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <div id="form-section">
+            <form>
+                <h1>Contact Us</h1>
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <label for="contact-purpose">Contact Purpose:</label>
+                  <select id="contact-purpose" name="contact-purpose">
+                    <option value="sell-books">I want to sell books</option>
+                    <option value="buy-books">I want to buy books</option>
+                  </select><br><br>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name"><br><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email"><br><br>
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone"><br><br>
+                </fieldset>
+                <fieldset>
+                  <legend>Contact Preferences</legend>
+                  Contact Preference:<br>
+                  <input type="checkbox" id="by-email" name="by-email">
+                  <label for="by-email">By email</label><br>
+                  <input type="checkbox" id="by-phone" name="by-phone">
+                  <label for="by-phone">By phone</label><br><br>
+                  Receive weekly newsletter:<br>
+                  <input type="radio" id="yes-newsletter" name="newsletter" value="yes" checked>
+                  <label for="yes-newsletter">Yes</label><br>
+                  <input type="radio" id="no-newsletter" name="newsletter" value="no">
+                  <label for="no-newsletter">No</label><br><br>
+                </fieldset>
+                <fieldset>
+                  <legend>Extra Notes</legend>
+                  Extra Notes:<br>
+                  <textarea id="extra-notes" name="extra-notes"></textarea><br><br>
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </form>
+        </div>
+    </main>
+    <footer>
+        <navbar class="navbar">
+            <a href="Contact.html" target="_blank">
+                <ul>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <Li>Terms</Li>
+                    <li>Copyright</li>
+                    <li>Contact Us</li>
+                </ul>
+            </a>
+        </navbar>
+        <div class="video">
+            <h3>Video preview about The Alchemyst</h3>
+            <video width="320" height="240" autoplay muted>
+                <source src="Who was the real Nicolas Flamel-.mp4" alt="">
+            </video>
+        </div>   
+    </footer>
+</body>
+</html>

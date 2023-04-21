@@ -1,0 +1,100 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Quang Dat
+ID: s3927251 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home_page.css">
+    <title>My Static Website</title>
+</head>
+<body>
+    <head>
+        <div class="header">
+            <a href="#"><img class="icon" src="icon.jpg" alt="The icon represents the website"></a>
+            <h1>My books</h1>
+        </div> 
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Categories_Fiction.html" >Fiction</a></li>
+                <li><a href="Categories_References.html" >Reference Books</a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <h2>
+            <a href="Categories_Fiction.html" >
+                Fiction
+            </a>
+        </h2>
+        <div class="container">
+            <div class="product">
+                <a href="Book_detail.html" >
+                    <img  src="thealchemyst.jpg" alt="the alchemyst book cover">
+                    <h2>The Alchemyst by Nicholas Flamel</h2> 
+                </a>
+            </div> 
+            <div class="product">
+                <a href="Categories_Fiction.html">
+                    <img src="black tom.jpg" alt="the book cover">
+                    <h2>The Ballad of Black Tom by Victo Lavalle</h2>   
+                </a>
+            </div>
+            <div class="product">
+                <a href="Categories_Fiction.html">
+                    <img src="thesun.webp" alt="the book cover">
+                    <h2>She who became the Sun by Shelly Parker-Chan</h2>  
+                </a>
+            </div>
+        </div>
+        <h2>
+            <a href="Categories_References.html" >
+                Reference books
+            </a>
+        </h2>
+        <div class="container2">
+            <div class="product">
+                <a href="Categories_References.html">
+                    <img src="math.jpg" alt="the book cover">
+                    <h2>Discrete Mathematic </h2>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Categories_References.html">
+                    <img src="almanacs.jpg" alt="the book cover">
+                    <h2>Almanacs 2023</h2>
+                </a> 
+            </div>
+            <div class="product">
+                <a href="Categorie_reference.html">
+                    <img src="dict.jpg" alt="the book cover">
+                    <h2>Dictionary</h2>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <navbar class="navbar">
+            <ul>
+                <li><a href="Contact.html">About Us</a></li>
+                <li><a href="Contact.html">Privacy Policy</a></li>
+                <Li><a href="Contact.html">Terms</a></Li>
+                <li><a href="Contact.html">Copyright</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </navbar>
+        <div class="video">
+            <h3>Video preview about The Alchemyst</h3>
+            <video width="320" height="240" autoplay muted>
+                <source src="Who was the real Nicolas Flamel-.mp4" alt="Video preview">
+            </video>
+        </div>   
+    </footer>
+</body>
+</html>

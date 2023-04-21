@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+h1 {
+    padding: 0px;
+    text-align: center;
+    font-size: 150px;
+    color:white;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    font-size: 50px;
+    
+}
+.product h2{
+    text-align: center;
+    font-size: 50px ;
+    color:white;
+}

@@ -1,0 +1,56 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Quang Dat
+ID: s3927251 */
+#form-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"],
+input[type="reset"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+}
+  fieldset {
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+  }
